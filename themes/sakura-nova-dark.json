@@ -644,6 +644,12 @@
       }
     },
     {
+      "scope": "keyword.operator.logical.python",
+      "settings": {
+        "foreground": "#FF75C3"
+      }
+    }, 
+    {
       "name": "Preprocessor directives",
       "scope": [
         "keyword.control.directive",

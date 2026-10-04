@@ -1,11 +1,11 @@
 {
-  "name": "sakura-nova-new",
-  "displayName": "Sakura Nova New",
+  "name": "sakura-nova-X",
+  "displayName": "Sakura Nova X",
   "description": "A cosmic cherry-blossom theme for VS Code — five hand-tuned variants (Dark, Dark Pro, Warm, Dark Red and Light) with full semantic highlighting and a matching terminal palette.",
-  "version": "0.0.2",
-  "publisher": "zsn-Rose",
+  "version": "0.0.1",
+  "publisher": "zso-Rose",
   "author": {
-    "name": "zsn"
+    "name": "zso"
   },
   "license": "MIT",
   "icon": "images/icon.png",
@@ -33,13 +33,13 @@
     "semantic highlighting",
     "material"
   ],
-  "homepage": "https://github.com/zsn-Rose/sakura-nova#readme",
+  "homepage": "https://github.com/solzso/sakura-nova#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zsn-Rose/sakura-nova.git"
+    "url": "https://github.com/solzso/sakura-nova.git"
   },
   "bugs": {
-    "url": "https://github.com/zsn-Rose/sakura-nova/issues"
+    "url": "https://github.com/solzso/sakura-nova/issues"
   },
   "qna": "marketplace",
   "pricing": "Free",

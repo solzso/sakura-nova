@@ -689,6 +689,12 @@
       }
     },
     {
+      "scope": "keyword.operator.logical.python",
+      "settings": {
+        "foreground": "#FF75C3"
+      }
+    },
+    {
       "name": "Preprocessor macro names",
       "scope": [
         "entity.name.function.preprocessor"

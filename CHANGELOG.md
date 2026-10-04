@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2026-09-21
+## [0.0.1] - 2026-10-04
 
 First public release.
 
@@ -24,6 +24,3 @@ First public release.
 - Tuned token rules for JavaScript, TypeScript, JSX/TSX, HTML, CSS/SCSS, Python, C, C++,
   Rust, Go, Java, Ruby, PHP, Swift, Markdown, JSON/JSONC, YAML, TOML and Shell.
 - Shared `#FF5DA2` accent across all five variants, so switching keeps the UI chrome consistent.
-
-[Unreleased]: https://github.com/zsn-Rose/sakura-nova/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/zsn-Rose/sakura-nova/releases/tag/v1.0.0
