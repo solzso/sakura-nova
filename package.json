@@ -1,0 +1,96 @@
+{
+  "name": "sakura-nova-new",
+  "displayName": "Sakura Nova New",
+  "description": "A cosmic cherry-blossom theme for VS Code — five hand-tuned variants (Dark, Dark Pro, Warm, Dark Red and Light) with full semantic highlighting and a matching terminal palette.",
+  "version": "0.0.2",
+  "publisher": "zsn-Rose",
+  "author": {
+    "name": "zsn"
+  },
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#100E23",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark-theme",
+    "light-theme",
+    "sakura",
+    "cherry blossom",
+    "pink",
+    "purple",
+    "pastel",
+    "italic",
+    "semantic highlighting",
+    "material"
+  ],
+  "homepage": "https://github.com/zsn-Rose/sakura-nova#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zsn-Rose/sakura-nova.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zsn-Rose/sakura-nova/issues"
+  },
+  "qna": "marketplace",
+  "pricing": "Free",
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "capabilities": {
+    "virtualWorkspaces": true,
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sakura Nova Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sakura-nova-dark.json"
+      },
+      {
+        "label": "Sakura Nova Dark Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sakura-nova-dark-pro.json"
+      },
+      {
+        "label": "Sakura Nova Warm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sakura-nova-warm.json"
+      },
+      {
+        "label": "Sakura Nova Dark Red",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sakura-nova-red.json"
+      },
+      {
+        "label": "Sakura Nova Light",
+        "uiTheme": "vs",
+        "path": "./themes/sakura-nova-light.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "publish:ovsx": "ovsx publish",
+    "vscode:prepublish": "npm run validate",
+    "validate": "node -e \"const p=require('./package.json');p.contributes.themes.forEach(t=>{const j=require(t.path);if(j.name!==t.label)throw new Error('Label mismatch: '+t.label+' vs '+j.name);console.log('ok  '+t.label+'  ('+Object.keys(j.colors).length+' colors, '+j.tokenColors.length+' token rules)')})\""
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^4.0.0",
+    "ovsx": "^1.2.0"
+  }
+}

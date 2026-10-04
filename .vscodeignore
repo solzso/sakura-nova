@@ -1,0 +1,24 @@
+# Development-only files — never shipped inside the .vsix
+
+.vscode/**
+.vscode-test/**
+.github/**
+.git/**
+.gitignore
+.vscodeignore
+.editorconfig
+
+node_modules/**
+package-lock.json
+
+*.vsix
+**/.DS_Store
+**/Thumbs.db
+
+# Shipped on purpose (listed here as documentation, do NOT ignore):
+#   package.json   — required manifest
+#   README.md      — Marketplace landing page
+#   CHANGELOG.md   — Marketplace "Changelog" tab
+#   LICENSE        — Marketplace "License" tab
+#   images/**      — icon + README screenshots
+#   themes/**      — the themes themselves
